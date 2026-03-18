@@ -1,4 +1,4 @@
-package org.example.ex2;
+package org.example.atv3;
 
 public class Diretor extends Funcionario implements Contratacao{
     private final double PREMIO = 0.2;

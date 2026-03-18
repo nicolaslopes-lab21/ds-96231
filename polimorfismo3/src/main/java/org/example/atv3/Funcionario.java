@@ -1,4 +1,4 @@
-package org.example.ex2;
+package org.example.atv3;
 
 public abstract class Funcionario {
     protected String nome;

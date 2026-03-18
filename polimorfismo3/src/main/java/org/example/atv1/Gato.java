@@ -1,4 +1,4 @@
-package org.example.ex1;
+package org.example.atv1;
 
 public class Gato implements Animal{
     @Override

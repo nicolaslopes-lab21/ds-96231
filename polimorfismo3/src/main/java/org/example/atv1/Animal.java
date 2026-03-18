@@ -1,4 +1,4 @@
-package org.example.ex1;
+package org.example.atv1;
 
 public interface Animal {
     public abstract String emitirsom();

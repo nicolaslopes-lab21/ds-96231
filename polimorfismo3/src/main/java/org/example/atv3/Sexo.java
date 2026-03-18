@@ -1,9 +1,8 @@
-package org.example.ex2;
+package org.example.atv3;
 
 public enum Sexo {
-    RECURSOS_humanos("Recursos humanos"),
-    FINANCEIRO("Financeiro"),
-    OPERACOES("Operacoes");
+    MASCULINO("Masculino"),
+    FEMININO("Feminino");
 
     private String nome;
 
@@ -14,4 +13,6 @@ public enum Sexo {
     public String getNome() {
         return nome;
     }
+
+
 }

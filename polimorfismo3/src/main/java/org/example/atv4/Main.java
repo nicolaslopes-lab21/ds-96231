@@ -1,7 +1,5 @@
 package org.example.atv4;
 
-import org.example.ex2.Diretor;
-
 public class Main {
     public static void main(String[] args) {
         Motoboy motoboy = new Motoboy("nicolas","38282","28032007",2333,"2sddwe");
