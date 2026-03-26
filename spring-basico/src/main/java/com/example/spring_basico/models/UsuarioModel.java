@@ -5,6 +5,10 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+
+//@Entity
+//Controla a classe para criar um modelo para
+//Tabela no banco de dados.
 @Entity
 public class UsuarioModel {
     @Id
