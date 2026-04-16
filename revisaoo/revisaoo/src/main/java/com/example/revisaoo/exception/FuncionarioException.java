@@ -1,0 +1,21 @@
+package com.example.revisaoo.exception;
+
+public class FuncionarioException {
+
+    @RestControllerAdvice
+    public class GlobalException {
+        @ExceptionHandler(RuntimeException.class)
+        public ResponseEntity<Map<String, Object>> runtimeException(RuntimeException erro) {
+            return ResponseEntity
+                    .status(HttpStatus.CONFLICT)
+                    .body(Map.of("mensagem", erro.getMessage()));
+        }
+
+        @ExceptionHandler(IllegalArgumentException.class)
+        public ResponseEntity<Map<String, Object>> IllegalArgumentException(IllegalArgumentException erro) {
+            return ResponseEntity
+                    .status(HttpStatus.BAD_REQUEST)
+                    .body(Map.of("mensagem", erro.getMessage()));
+        }
+    }
+}
